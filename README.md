@@ -4,6 +4,23 @@
 
 L'objectif de ce projet est de réaliser une **analyse inférentielle** des facteurs déterminant le résultat d'un match de Premier League. Contrairement à une simple prédiction, nous cherchons ici à comprendre et quantifier l'influence de différents indicateurs techniques (Efficacité, Niveau théorique, Discipline, Forme) sur la probabilité de victoire, de nul ou de défaite.
 
+## Structure du Projet
+```text
+.
+├── data/               # Dossier pour les jeux de données (ex: Matches.csv)
+│   └── .gitkeep        # Préserve le dossier dans Git
+├── notebooks/          # Notebooks Jupyter/Colab d'analyse
+│   └── PL_Performance_Inference_Logit.ipynb
+├── output/             # Résultats générés (graphiques, résumés)
+│   ├── .gitkeep
+│   ├── coefficients_chart.png
+│   └── model_summary.txt
+├── venv/               # Environnement virtuel Python (local)
+├── .gitignore          # Fichiers et dossiers à ignorer par Git
+├── README.md           # Documentation du projet
+└── requirements.txt    # Liste des dépendances Python
+```
+
 ## Dataset
 
 ### Source
